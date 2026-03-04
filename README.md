@@ -7,12 +7,14 @@ conda activate RH
 
 # place init
 pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1     --index-url https://download.pytorch.org/whl/cu121
+
 非cuda版本
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 
 
 pip install stable-baselines3[extra]==2.6.0 gymnasium==0.29.1
 
 pip install torch_geometric==2.6.1 -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
+
 非cuda版本
 pip install torch_geometric==2.6.1 -f https://data.pyg.org/whl/torch-2.5.1.html
 
