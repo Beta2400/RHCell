@@ -23,6 +23,6 @@ pip install scipy
 
 pip install mplcursors
 
-window 需安装C++拓展模块。若命令报错，建议咨询AI，在linux中使用或暂时放弃输出GDS
-
 pip install gdspy
+
+window 需安装C++拓展模块。若命令报错，建议咨询AI，在linux中使用或暂时放弃输出GDS
